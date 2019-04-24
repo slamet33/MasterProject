@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QvJ-lW-9i5">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profil-->
+        <!--Komunitas-->
         <scene sceneID="ehP-u4-d3r">
             <objects>
                 <viewController id="vAS-17-pMB" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1f7-gz-TNp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profil" id="e9S-x3-H7h"/>
+                    <tabBarItem key="tabBarItem" title="Komunitas" image="people" id="e9S-x3-H7h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tvJ-Fu-9Pq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1878" y="408"/>
+            <point key="canvasLocation" x="-1832" y="408"/>
         </scene>
-        <!--Komunitas-->
+        <!--Service-->
         <scene sceneID="GR3-94-Ciz">
             <objects>
                 <viewController id="IDc-Td-FOQ" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fXg-mi-1Bb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Komunitas" id="jJK-wn-DhW"/>
+                    <tabBarItem key="tabBarItem" title="Service" image="marker" id="jJK-wn-DhW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34w-EC-PNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,16 +52,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ode-QL-iDW"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="1jR-PH-peZ"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="1jR-PH-peZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E37-B2-QSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2578" y="400"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Apps TabBar-->
         <scene sceneID="HFQ-Jq-Zuc">
             <objects>
-                <tabBarController id="QvJ-lW-9i5" sceneMemberID="viewController">
+                <tabBarController title="Apps TabBar" id="QvJ-lW-9i5" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RBJ-Mt-Kb0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -78,7 +78,7 @@
             </objects>
             <point key="canvasLocation" x="-1535" y="-339"/>
         </scene>
-        <!--Service-->
+        <!--Profile-->
         <scene sceneID="qCg-gy-KDI">
             <objects>
                 <viewController id="KNV-Rh-B95" sceneMemberID="viewController">
@@ -88,11 +88,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kor-7E-il5"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Service" id="lOj-oZ-TQf"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="user_male" id="lOj-oZ-TQf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="65p-Cc-B8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-348" y="408"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="30" height="30"/>
+        <image name="marker" width="30" height="30"/>
+        <image name="people" width="30" height="30"/>
+        <image name="user_male" width="30" height="30"/>
+    </resources>
 </document>
