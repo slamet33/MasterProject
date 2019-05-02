@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A86B1175054F488D60FCD7B /* Pods_MasterProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222BFFFF5C37F9F8702B896 /* Pods_MasterProject.framework */; };
 		88340344227095F90045A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88340343227095F90045A960 /* AppDelegate.swift */; };
-		88340346227095F90045A960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88340345227095F90045A960 /* ViewController.swift */; };
 		88340349227095F90045A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88340347227095F90045A960 /* Main.storyboard */; };
 		8834034B227095FA0045A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8834034A227095FA0045A960 /* Assets.xcassets */; };
 		8834034E227095FA0045A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8834034C227095FA0045A960 /* LaunchScreen.storyboard */; };
+		8892387522781B790001918B /* SumberDayaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892387422781B790001918B /* SumberDayaViewController.swift */; };
+		88923877227831FA0001918B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88923876227831FA0001918B /* ResultViewController.swift */; };
+		88A524B62276D91100308063 /* ServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524B52276D91100308063 /* ServiceDetailViewController.swift */; };
+		88A524C022772A9A00308063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524BE22772A9A00308063 /* ViewController.swift */; };
+		88A524C122772A9A00308063 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524BF22772A9A00308063 /* ImageCollectionViewCell.swift */; };
+		88A524C622772F0D00308063 /* DetailCommunityPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524C322772F0D00308063 /* DetailCommunityPageViewController.swift */; };
+		88A524C722772F0D00308063 /* CommunityPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524C422772F0D00308063 /* CommunityPageViewController.swift */; };
+		88A524CC2277300100308063 /* TopThreadSlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524CB2277300100308063 /* TopThreadSlideCollectionViewCell.swift */; };
+		88A524CD2277300100308063 /* CategorySlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524CA2277300100308063 /* CategorySlideCollectionViewCell.swift */; };
+		88A524D32277375800308063 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524CF2277375800308063 /* ProfileViewController.swift */; };
+		88A524D42277375800308063 /* createOwnerAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524D02277375800308063 /* createOwnerAccountViewController.swift */; };
+		88A524D52277375800308063 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524D12277375800308063 /* PetCollectionViewCell.swift */; };
+		88A524D62277375800308063 /* registerOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524D22277375800308063 /* registerOwnerViewController.swift */; };
+		88A524DB2277447700308063 /* RegisterAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524D82277447600308063 /* RegisterAnimal.swift */; };
+		88A524DC2277447700308063 /* AnimalProfileEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524D92277447700308063 /* AnimalProfileEdit.swift */; };
+		88A524DD2277447700308063 /* AnimalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524DA2277447700308063 /* AnimalProfileViewController.swift */; };
+		88A524E02277448700308063 /* AdoptionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524DE2277448700308063 /* AdoptionList.swift */; };
+		88A524E12277448700308063 /* AdoptionPetListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524DF2277448700308063 /* AdoptionPetListCell.swift */; };
+		88A524E32277449100308063 /* AdoptionProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A524E22277449100308063 /* AdoptionProfile.swift */; };
+		88E64DC32273095000C03154 /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E64DC22273095000C03154 /* SViewController.swift */; };
+		88E64DC5227309F900C03154 /* SCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E64DC4227309F900C03154 /* SCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233ED7DF353FEE5029864A39 /* Pods-MasterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterProject.debug.xcconfig"; path = "Target Support Files/Pods-MasterProject/Pods-MasterProject.debug.xcconfig"; sourceTree = "<group>"; };
+		41F189C17974109C5B199947 /* Pods-MasterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterProject.release.xcconfig"; path = "Target Support Files/Pods-MasterProject/Pods-MasterProject.release.xcconfig"; sourceTree = "<group>"; };
 		88340340227095F90045A960 /* MasterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88340343227095F90045A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88340345227095F90045A960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88340348227095F90045A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8834034A227095FA0045A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8834034D227095FA0045A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8834034F227095FA0045A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8892387422781B790001918B /* SumberDayaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumberDayaViewController.swift; sourceTree = "<group>"; };
+		88923876227831FA0001918B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		88A524B52276D91100308063 /* ServiceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailViewController.swift; sourceTree = "<group>"; };
+		88A524BE22772A9A00308063 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88A524BF22772A9A00308063 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		88A524C322772F0D00308063 /* DetailCommunityPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCommunityPageViewController.swift; sourceTree = "<group>"; };
+		88A524C422772F0D00308063 /* CommunityPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityPageViewController.swift; sourceTree = "<group>"; };
+		88A524CA2277300100308063 /* CategorySlideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		88A524CB2277300100308063 /* TopThreadSlideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopThreadSlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		88A524CF2277375800308063 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		88A524D02277375800308063 /* createOwnerAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createOwnerAccountViewController.swift; sourceTree = "<group>"; };
+		88A524D12277375800308063 /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
+		88A524D22277375800308063 /* registerOwnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerOwnerViewController.swift; sourceTree = "<group>"; };
+		88A524D82277447600308063 /* RegisterAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterAnimal.swift; sourceTree = "<group>"; };
+		88A524D92277447700308063 /* AnimalProfileEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalProfileEdit.swift; sourceTree = "<group>"; };
+		88A524DA2277447700308063 /* AnimalProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalProfileViewController.swift; sourceTree = "<group>"; };
+		88A524DE2277448700308063 /* AdoptionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionList.swift; sourceTree = "<group>"; };
+		88A524DF2277448700308063 /* AdoptionPetListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionPetListCell.swift; sourceTree = "<group>"; };
+		88A524E22277449100308063 /* AdoptionProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionProfile.swift; sourceTree = "<group>"; };
+		88E64DC22273095000C03154 /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		88E64DC4227309F900C03154 /* SCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCollectionViewCell.swift; sourceTree = "<group>"; };
+		D222BFFFF5C37F9F8702B896 /* Pods_MasterProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A86B1175054F488D60FCD7B /* Pods_MasterProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +85,8 @@
 			children = (
 				88340342227095F90045A960 /* MasterProject */,
 				88340341227095F90045A960 /* Products */,
+				C4370CD4230C448A4BF7823D /* Pods */,
+				B2A036A6FDEFB9EE95C0706C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,115 @@
 		88340342227095F90045A960 /* MasterProject */ = {
 			isa = PBXGroup;
 			children = (
+				8892387322781B550001918B /* Matching */,
+				88A524D72277440800308063 /* Animal */,
+				88A524CE2277373600308063 /* Profile */,
+				88A524C222772EDD00308063 /* Community */,
+				88A524B92277259D00308063 /* Home */,
+				88A524B72276D92000308063 /* Service */,
 				88340343227095F90045A960 /* AppDelegate.swift */,
-				88340345227095F90045A960 /* ViewController.swift */,
 				88340347227095F90045A960 /* Main.storyboard */,
 				8834034A227095FA0045A960 /* Assets.xcassets */,
 				8834034C227095FA0045A960 /* LaunchScreen.storyboard */,
 				8834034F227095FA0045A960 /* Info.plist */,
 			);
 			path = MasterProject;
+			sourceTree = "<group>";
+		};
+		8892387322781B550001918B /* Matching */ = {
+			isa = PBXGroup;
+			children = (
+				8892387422781B790001918B /* SumberDayaViewController.swift */,
+				88923876227831FA0001918B /* ResultViewController.swift */,
+			);
+			path = Matching;
+			sourceTree = "<group>";
+		};
+		88A524B72276D92000308063 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88E64DC22273095000C03154 /* SViewController.swift */,
+				88E64DC4227309F900C03154 /* SCollectionViewCell.swift */,
+				88A524B82276D93100308063 /* Detail */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		88A524B82276D93100308063 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				88A524B52276D91100308063 /* ServiceDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		88A524B92277259D00308063 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88A524BF22772A9A00308063 /* ImageCollectionViewCell.swift */,
+				88A524BE22772A9A00308063 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88A524C222772EDD00308063 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				88A524C922772FF500308063 /* CommunityCollectionViewCell */,
+				88A524C422772F0D00308063 /* CommunityPageViewController.swift */,
+				88A524C322772F0D00308063 /* DetailCommunityPageViewController.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		88A524C922772FF500308063 /* CommunityCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				88A524CA2277300100308063 /* CategorySlideCollectionViewCell.swift */,
+				88A524CB2277300100308063 /* TopThreadSlideCollectionViewCell.swift */,
+			);
+			path = CommunityCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		88A524CE2277373600308063 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				88A524D02277375800308063 /* createOwnerAccountViewController.swift */,
+				88A524D12277375800308063 /* PetCollectionViewCell.swift */,
+				88A524D22277375800308063 /* registerOwnerViewController.swift */,
+				88A524CF2277375800308063 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		88A524D72277440800308063 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				88A524E22277449100308063 /* AdoptionProfile.swift */,
+				88A524DE2277448700308063 /* AdoptionList.swift */,
+				88A524DF2277448700308063 /* AdoptionPetListCell.swift */,
+				88A524D92277447700308063 /* AnimalProfileEdit.swift */,
+				88A524DA2277447700308063 /* AnimalProfileViewController.swift */,
+				88A524D82277447600308063 /* RegisterAnimal.swift */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		B2A036A6FDEFB9EE95C0706C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D222BFFFF5C37F9F8702B896 /* Pods_MasterProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4370CD4230C448A4BF7823D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233ED7DF353FEE5029864A39 /* Pods-MasterProject.debug.xcconfig */,
+				41F189C17974109C5B199947 /* Pods-MasterProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88340352227095FA0045A960 /* Build configuration list for PBXNativeTarget "MasterProject" */;
 			buildPhases = (
+				5024745373FA2A6B08377B5B /* [CP] Check Pods Manifest.lock */,
 				8834033C227095F90045A960 /* Sources */,
 				8834033D227095F90045A960 /* Frameworks */,
 				8834033E227095F90045A960 /* Resources */,
@@ -130,13 +279,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5024745373FA2A6B08377B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasterProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8834033C227095F90045A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88340346227095F90045A960 /* ViewController.swift in Sources */,
+				88E64DC5227309F900C03154 /* SCollectionViewCell.swift in Sources */,
+				88A524D62277375800308063 /* registerOwnerViewController.swift in Sources */,
+				88A524DD2277447700308063 /* AnimalProfileViewController.swift in Sources */,
+				8892387522781B790001918B /* SumberDayaViewController.swift in Sources */,
+				88A524E12277448700308063 /* AdoptionPetListCell.swift in Sources */,
+				88A524C722772F0D00308063 /* CommunityPageViewController.swift in Sources */,
+				88A524E32277449100308063 /* AdoptionProfile.swift in Sources */,
+				88A524C622772F0D00308063 /* DetailCommunityPageViewController.swift in Sources */,
+				88A524C122772A9A00308063 /* ImageCollectionViewCell.swift in Sources */,
+				88A524DB2277447700308063 /* RegisterAnimal.swift in Sources */,
+				88E64DC32273095000C03154 /* SViewController.swift in Sources */,
+				88A524C022772A9A00308063 /* ViewController.swift in Sources */,
+				88A524E02277448700308063 /* AdoptionList.swift in Sources */,
+				88A524D42277375800308063 /* createOwnerAccountViewController.swift in Sources */,
+				88A524D32277375800308063 /* ProfileViewController.swift in Sources */,
 				88340344227095F90045A960 /* AppDelegate.swift in Sources */,
+				88A524DC2277447700308063 /* AnimalProfileEdit.swift in Sources */,
+				88A524D52277375800308063 /* PetCollectionViewCell.swift in Sources */,
+				88A524CC2277300100308063 /* TopThreadSlideCollectionViewCell.swift in Sources */,
+				88A524CD2277300100308063 /* CategorySlideCollectionViewCell.swift in Sources */,
+				88A524B62276D91100308063 /* ServiceDetailViewController.swift in Sources */,
+				88923877227831FA0001918B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +474,12 @@
 		};
 		88340353227095FA0045A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233ED7DF353FEE5029864A39 /* Pods-MasterProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML73UMRN9R;
 				INFOPLIST_FILE = MasterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +487,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.MasterProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +495,12 @@
 		};
 		88340354227095FA0045A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F189C17974109C5B199947 /* Pods-MasterProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML73UMRN9R;
 				INFOPLIST_FILE = MasterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.MasterProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
